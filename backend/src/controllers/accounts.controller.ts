@@ -9,3 +9,21 @@ export const getAccounts: RequestHandler = (_, res, next) => {
         next(err);
     }
 };
+
+export const getAccountById: RequestHandler = (req, res, next) => {
+    
+    try {
+        const { id } = req.params;
+        const account = accounts.find(account => account.id === id);
+
+        if (account) {
+            res.json(account);
+        } else {
+            res.status(404).json({message: 'Account not found'});
+        }
+
+    } catch(err) {
+        console.error(`Error getting`, (err as Error).message);
+        next(err);
+    }
+};

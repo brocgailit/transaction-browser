@@ -32,3 +32,23 @@ test("Get all accounts", async () => {
     assert.deepEqual(body, accounts, 'Body did not contain accounts');
     
 })
+
+test("Get account by id", async () => {
+
+    const [account] = accounts;
+
+    // endpoint returns successful json response
+    const { body } = await request(app)
+        .get(`/accounts/${account.id}`)
+        .expect("Content-Type", /json/)
+        .expect(200);
+
+    // response is valid account
+    assert.equal(isValidAccount(body), true, 'Body is a valid account')
+
+    // endpoint returns 404 when account not found
+    await request(app)
+        .get(`/accounts/INVALID_ACCOUNT_ID`)
+        .expect("Content-Type", /json/)
+        .expect(404);
+})
