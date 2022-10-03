@@ -32,10 +32,19 @@ export const getAccountTransactions: RequestHandler = (req, res, next) => {
 
     try {
         const { id } = req.params;
+        const { category } = req.query;
+
         const account = accounts.find(account => account.id === id);
 
         if (account) {
-            const accountTransactions = transactions.filter(transaction => transaction.accountId === id);
+
+            const accountTransactions = transactions.filter(({accountId, category : transactionCategory}) => {
+                return [
+                    accountId === id,
+                    category ? (category as string | string[]).includes(transactionCategory) : true
+                ].every(Boolean);
+            });
+
             res.json(accountTransactions || []);
         } else {
             res.status(404).json({message: 'Account not found'});

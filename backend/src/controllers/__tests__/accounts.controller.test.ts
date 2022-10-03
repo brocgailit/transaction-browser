@@ -1,7 +1,7 @@
 import { test, expect, assert } from "vitest";
 import request from "supertest";
 import { app } from '../../app';
-import { accounts, transactions } from '../../data/test_data.json';
+import { accounts, transactions, categories } from '../../data/test_data.json';
 
 function isValidAccount(account) {
     return Object.entries(accounts[0])
@@ -58,7 +58,7 @@ test("Get account transactions", async () => {
     const [account] = accounts;
     const accountTransactions = transactions.filter(transaction => transaction.accountId === account.id);
 
-    // endopint return successful json response
+    // endpoint returns successful json response
     const { body } = await request(app)
         .get(`/accounts/${account.id}/transactions`)
         .expect("Content-Type", /json/)
@@ -66,5 +66,27 @@ test("Get account transactions", async () => {
     
     // response contains array of transactions
     assert.deepEqual(body, accountTransactions, 'Body did not return expected transactions')
+
+})
+
+
+test("Get account transactions by category", async () => {
+
+    const [{id}] = accounts;
+    const [category] = categories;
+
+    const accountTransactionsByCategory = transactions.filter(({accountId, category : transactionCategory}) => {
+        return accountId === id && transactionCategory === category
+    });
+
+    // endpoint returns successful json response
+    const { body } = await request(app)
+        .get(`/accounts/${id}/transactions`)
+        .query({ category })
+        .expect("Content-Type", /json/)
+        .expect(200);
+    
+    // response contains array of transactions
+    assert.deepEqual(body, accountTransactionsByCategory, 'Body did not return expected transactions')
 
 })
