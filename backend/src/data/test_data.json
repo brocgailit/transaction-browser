@@ -1,0 +1,719 @@
+{
+  "categories": [
+    "Transfer",
+    "Shopping",
+    "Travel",
+    "Gambling",
+    "Utilities",
+    "Other"
+  ],
+  "accounts": [
+      {
+        "id": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "iban": "LV06NABA8902177621514",
+        "owner": "Janis Duja"
+      },
+      {
+        "id": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "iban": "LV06NABA1074205338171",
+        "owner": "Dzeina Krasta"
+      },
+      {
+        "id": "78014059-e68b-4b91-84ea-9877565a402f",
+        "iban": "LV06NABA4808497771935",
+        "owner": "Martins Lusis"
+      },
+      {
+        "id": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "iban": "LV06NABA6786384002245",
+        "owner": "Patriks Zvaigzne"
+      },
+      {
+        "id": "58cba3f5-af89-471f-9ed6-0f6a38220c60",
+        "iban": "LV06NABA8081516749744",
+        "owner": "Bobs Kvadrats"
+      }
+    ],
+    "transactions": [
+      {
+        "id": "26d62c3c-e817-4642-b99b-3d08626d51b9",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Utilities",
+        "amount": "-421.40",
+        "date": "2022-08-17T23:43:18.753Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "3e8c76c4-9434-4cfb-a76f-61e323432810",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Shopping",
+        "amount": "-438.90",
+        "date": "2022-04-27T04:06:21.906Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "f23f397c-dc0c-46ea-a395-eb741baeed1d",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Salary",
+        "amount": "3264.49",
+        "date": "2022-02-03T00:12:37.441Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "9453cd93-e6ea-4c48-9914-45a2d8d020ff",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Salary",
+        "amount": "3071.23",
+        "date": "2022-07-13T23:00:47.899Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "795fa77e-78e6-410f-a5ba-39fd9e1fe644",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Gambling",
+        "amount": "795.91",
+        "date": "2022-08-09T07:52:21.151Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "2d9cc482-bb7a-4673-ba50-02c9149cc841",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Salary",
+        "amount": "3346.25",
+        "date": "2022-03-31T02:52:52.417Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "d433cd42-7dee-4c13-a06b-e50a6cac350a",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Utilities",
+        "amount": "-552.54",
+        "date": "2022-04-04T23:20:35.844Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "f8dc94cd-ff4d-4847-afdb-8d23c99959ad",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Transfer",
+        "amount": "-23.26",
+        "date": "2022-05-22T09:12:29.427Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "c04efcbc-f498-4f34-9906-0fc60ad39588",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Shopping",
+        "amount": "-600.71",
+        "date": "2022-02-20T18:50:31.928Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "75e80c71-7f93-4912-9e58-100d6d3ebc7a",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Transfer",
+        "amount": "1849.76",
+        "date": "2022-01-19T03:04:44.521Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "7acf8967-3a3d-44e7-aced-9696920d0529",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Travel",
+        "amount": "-134.22",
+        "date": "2022-03-22T14:46:29.319Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "5532d4cc-9d0b-4eed-858b-d38ee867406d",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Travel",
+        "amount": "-350.87",
+        "date": "2022-09-18T22:49:37.242Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "82cec061-aacb-4caa-99b0-7b4bab3fd478",
+        "accountId": "0e734291-2a88-4dc7-97ea-b2a49678b826",
+        "category": "Salary",
+        "amount": "3493.10",
+        "date": "2022-06-20T06:47:23.276Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "c74aade9-2586-454c-8cd8-1d8ec07c79b5",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Salary",
+        "amount": "3492.72",
+        "date": "2022-03-05T06:22:12.909Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "fb71d87a-5266-4853-bff4-43c2a428b36f",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Utilities",
+        "amount": "-951.12",
+        "date": "2022-05-16T02:01:14.265Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "1c861b4c-cd85-4b93-9745-d40d007ffc1d",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Salary",
+        "amount": "3441.12",
+        "date": "2022-08-06T21:31:06.423Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "f1361f5f-7a7c-4ac7-b7ca-50039a107614",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Transfer",
+        "amount": "3460.76",
+        "date": "2022-01-11T20:50:45.323Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "a26c2b81-7019-4b33-8341-6096df7f0cc1",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Shopping",
+        "amount": "-58.85",
+        "date": "2022-05-17T01:41:27.496Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "da357ceb-de49-47ef-89d8-ddb600715c8c",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Other",
+        "amount": "2290.31",
+        "date": "2022-05-24T07:13:10.400Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "2162ec6a-257f-4ba5-97c9-d96a183b5864",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Utilities",
+        "amount": "-967.66",
+        "date": "2022-01-08T04:51:29.417Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "87238212-9066-4d0e-a73b-ecb29b089b56",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Other",
+        "amount": "162.60",
+        "date": "2022-04-17T06:34:02.608Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "11b75169-6939-4360-9901-360f17ac4553",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Other",
+        "amount": "2572.41",
+        "date": "2022-02-01T10:56:30.187Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "e25c350d-85ca-4bce-ae4b-21186d8b1144",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Utilities",
+        "amount": "-414.94",
+        "date": "2022-02-21T19:10:23.424Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "a040f282-a12e-45af-b647-cf65f41e2001",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Gambling",
+        "amount": "457.49",
+        "date": "2022-07-22T11:40:48.629Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "4a750bf7-8bb7-4b4b-b78e-8a8cb40e5b2c",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Travel",
+        "amount": "-762.53",
+        "date": "2022-04-27T12:32:08.757Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "ee30c1af-490e-4690-aa21-92d632f79293",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Travel",
+        "amount": "-61.37",
+        "date": "2022-01-29T11:52:37.099Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "f8d3a531-722d-44e6-a0fe-96f8a0ae9f36",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Other",
+        "amount": "-370.70",
+        "date": "2022-07-10T16:43:36.425Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "4eabf88f-c2d5-4313-97b1-c61482b502a7",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Travel",
+        "amount": "-614.68",
+        "date": "2022-06-05T19:31:19.926Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "1d666b90-4e7f-4d2b-8dc1-e7c44ec2d917",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Other",
+        "amount": "-761.18",
+        "date": "2022-02-08T20:57:52.055Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "d70ec2c9-7f27-4ba2-a8c8-d224af5745e1",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Shopping",
+        "amount": "-655.26",
+        "date": "2022-07-07T03:06:16.699Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "8aed9e60-e17e-4273-9e70-fc6ffff6a6ff",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Shopping",
+        "amount": "-884.67",
+        "date": "2022-06-02T13:16:10.855Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "b96ad102-2d85-42da-a489-3e2a1fb025b7",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Transfer",
+        "amount": "2659.15",
+        "date": "2022-09-12T19:39:52.107Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "74c3bed0-7942-4b59-a61b-234f8e4b33b3",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Transfer",
+        "amount": "922.65",
+        "date": "2022-08-01T08:32:30.546Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "099f7c0a-34e9-40af-8ef0-f793174f104c",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Salary",
+        "amount": "3053.84",
+        "date": "2022-02-03T04:59:59.828Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "d0699fbd-fe69-410a-98ad-27be75f464e5",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Salary",
+        "amount": "3301.26",
+        "date": "2022-08-17T02:30:13.245Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "421ab622-6fac-4050-a633-e33dac8e39d4",
+        "accountId": "c6169ea5-ed1f-4f03-8a0a-d1e18407837b",
+        "category": "Gambling",
+        "amount": "1669.18",
+        "date": "2022-03-04T16:49:35.348Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "c36ab849-9cb8-44a6-9c5b-fc4ab8e3734b",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Salary",
+        "amount": "3457.85",
+        "date": "2022-02-04T12:32:02.576Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "e9373979-07d6-457c-a760-a97d3ed4661c",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Gambling",
+        "amount": "2336.88",
+        "date": "2022-06-03T05:23:37.298Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "1254d03c-1e65-438f-b488-d29f8d01e477",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Salary",
+        "amount": "3213.93",
+        "date": "2022-04-25T01:47:52.035Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "18f45a27-9f8c-4648-a74f-56acce48d8a7",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Shopping",
+        "amount": "-202.64",
+        "date": "2022-07-27T18:06:00.290Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "af98a89b-81a4-4a74-81e7-22a125455b4f",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Other",
+        "amount": "2253.39",
+        "date": "2022-04-22T06:02:49.216Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "ab6bb8e4-c9be-442a-86db-8052992bd912",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Travel",
+        "amount": "-738.45",
+        "date": "2022-06-02T03:16:35.654Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "e0ce3d0c-d7b1-496b-bd1e-c0c0bc380174",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Shopping",
+        "amount": "-370.13",
+        "date": "2022-06-05T04:19:44.574Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "4349b45b-44a1-409c-90f8-3c5146eaade0",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Other",
+        "amount": "2350.27",
+        "date": "2022-02-13T22:27:28.751Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "7ad070fe-0a4a-46e4-ba29-62890f02e1ec",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Travel",
+        "amount": "-856.84",
+        "date": "2022-05-09T04:45:23.860Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "1a72c0c8-3e4c-4c55-8c86-045c703870ee",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Transfer",
+        "amount": "506.66",
+        "date": "2022-05-12T20:01:45.057Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "7fd997fc-2ae4-4e34-b1db-29b878d376b1",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Transfer",
+        "amount": "2795.77",
+        "date": "2022-06-05T16:25:19.619Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "086aae10-3621-40d1-a76c-304a0b426bbd",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Travel",
+        "amount": "-562.90",
+        "date": "2022-02-05T07:01:15.358Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "a03191bb-820c-44db-a253-f42e1f5bd6c9",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Travel",
+        "amount": "-407.49",
+        "date": "2022-03-06T01:41:20.317Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "3b556935-eb2b-48e9-82a0-c7be00fc54d6",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Gambling",
+        "amount": "608.11",
+        "date": "2022-03-28T19:12:10.722Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "1b0681a6-5165-4b93-bf28-2ace987047ce",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Other",
+        "amount": "3336.48",
+        "date": "2022-08-25T23:58:27.708Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "ef506d3e-3439-4cf3-af37-7e6353971b8c",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Utilities",
+        "amount": "-371.21",
+        "date": "2022-02-01T22:19:09.937Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "db53b8a5-6734-4450-80cd-e9b0d4a57210",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Travel",
+        "amount": "-629.90",
+        "date": "2022-06-12T00:56:48.437Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "bcca284c-7371-43a9-9ab2-371a1e382ca8",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Travel",
+        "amount": "-499.88",
+        "date": "2022-07-04T11:44:47.214Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "0bd0367f-2f98-4b9f-9fe0-3209a631a04b",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Transfer",
+        "amount": "121.33",
+        "date": "2022-03-21T02:33:50.749Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "59ed6d0b-b0a1-4b31-bb03-fc31a2719b95",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Utilities",
+        "amount": "-302.46",
+        "date": "2022-08-20T23:20:43.001Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "6e8c75e7-99c5-4a3b-831b-3907f23730fa",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Gambling",
+        "amount": "774.75",
+        "date": "2022-06-22T06:11:33.383Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "92fa215c-4dad-416b-831b-c4729c3ed9bb",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Gambling",
+        "amount": "-120.66",
+        "date": "2022-06-03T17:30:00.076Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "502b6079-a6c5-4448-a56d-59147488ef5d",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Shopping",
+        "amount": "-243.88",
+        "date": "2022-03-17T00:00:43.958Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "68944ac6-fe71-47ed-8692-8fb3b96a94a4",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Other",
+        "amount": "2571.59",
+        "date": "2022-01-03T05:27:32.422Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "5de5de23-d527-4280-9009-794af5745b09",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Shopping",
+        "amount": "-902.27",
+        "date": "2022-01-19T07:53:37.944Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "8dedfbca-4d14-4b5f-b20d-37a5dfd75d0c",
+        "accountId": "78014059-e68b-4b91-84ea-9877565a402f",
+        "category": "Transfer",
+        "amount": "2041.78",
+        "date": "2022-02-25T07:33:34.146Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "110375e1-ac8a-48de-9cfc-856f9167ed22",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Shopping",
+        "amount": "-143.53",
+        "date": "2022-06-27T21:12:52.959Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "c91d1ff9-fa3c-42b6-9812-4319f67dc715",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Transfer",
+        "amount": "-785.15",
+        "date": "2022-07-31T00:04:24.957Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "0ebbce6a-dfd3-4d25-b10b-0d1825608fce",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Travel",
+        "amount": "-496.38",
+        "date": "2022-04-01T00:32:04.840Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "3cc58bf5-55fe-4650-9bd5-88def7f94a7e",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Travel",
+        "amount": "-417.72",
+        "date": "2022-04-10T17:43:15.876Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "ddd6c056-0a43-4a0d-a870-95f36938502e",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Transfer",
+        "amount": "2904.74",
+        "date": "2022-06-06T09:32:25.106Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "b4b22961-d553-4c07-b8f0-73217d61b43f",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Utilities",
+        "amount": "-331.31",
+        "date": "2022-01-13T15:05:06.337Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "db1495ae-7592-41b2-8210-af6bfb4580ee",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Travel",
+        "amount": "-584.18",
+        "date": "2022-08-03T03:12:14.043Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "2d9cba0c-f219-4bb9-b546-7748095d9a55",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Utilities",
+        "amount": "-316.28",
+        "date": "2022-01-04T13:14:08.115Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "1ffabe14-1ee8-4738-87e3-833fb8f8dc17",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Travel",
+        "amount": "-553.69",
+        "date": "2022-06-02T10:25:32.893Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "c7263f71-40c9-47f0-8a35-d8ffb52a02f8",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Travel",
+        "amount": "-179.44",
+        "date": "2022-05-14T23:32:46.864Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "201a7826-ec5e-4c5c-8be0-2826ad92d7a2",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Shopping",
+        "amount": "-426.15",
+        "date": "2022-03-18T14:19:07.509Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "3c3ae227-1975-413a-b87c-b3fbf52c228c",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Utilities",
+        "amount": "-273.79",
+        "date": "2022-09-19T19:11:46.001Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "91d7939f-e125-4f9b-844f-c29e1057e411",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Utilities",
+        "amount": "-823.33",
+        "date": "2022-02-19T00:30:33.705Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "f5f06ba8-abc8-402f-9625-3707b6ae836a",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Transfer",
+        "amount": "1939.43",
+        "date": "2022-03-20T07:26:59.819Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "0bc46bdb-317e-45e8-b2f7-8f5ce447c0a1",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Travel",
+        "amount": "-177.55",
+        "date": "2022-08-31T11:58:19.532Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "8bb914ef-7ed1-4a83-ae96-8a4be23646af",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Transfer",
+        "amount": "847.94",
+        "date": "2022-07-11T08:55:23.872Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "8ca89a71-c95d-4818-8275-728266cfa9d1",
+        "accountId": "c7e16aad-7a98-44a5-9c24-4c63f54f6ffc",
+        "category": "Gambling",
+        "amount": "-290.63",
+        "date": "2022-06-09T15:18:36.491Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "cda76807-0540-4587-a248-6c9519fbc9e9",
+        "accountId": "58cba3f5-af89-471f-9ed6-0f6a38220c60",
+        "category": "Salary",
+        "amount": "3352.20",
+        "date": "2022-07-13T09:38:04.151Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "110cc4ce-a049-4795-a649-d23ddad87f47",
+        "accountId": "58cba3f5-af89-471f-9ed6-0f6a38220c60",
+        "category": "Other",
+        "amount": "-141.81",
+        "date": "2022-02-23T13:11:53.050Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "65e99d9d-9c55-41e1-8ebc-fa07c6f1f7b9",
+        "accountId": "58cba3f5-af89-471f-9ed6-0f6a38220c60",
+        "category": "Other",
+        "amount": "-193.23",
+        "date": "2022-06-28T17:24:05.071Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "ad9a2477-1ad4-4e04-a0c1-142463e6a207",
+        "accountId": "58cba3f5-af89-471f-9ed6-0f6a38220c60",
+        "category": "Salary",
+        "amount": "3202.19",
+        "date": "2022-08-09T22:09:43.474Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "0111c428-06fc-4a91-9a8c-4eddc7d53a5d",
+        "accountId": "58cba3f5-af89-471f-9ed6-0f6a38220c60",
+        "category": "Other",
+        "amount": "-369.41",
+        "date": "2022-01-19T04:49:37.558Z",
+        "currency": "EUR"
+      },
+      {
+        "id": "bf12fb3f-626d-47c3-9d60-41a907cd7719",
+        "accountId": "58cba3f5-af89-471f-9ed6-0f6a38220c60",
+        "category": "Utilities",
+        "amount": "-898.40",
+        "date": "2022-03-03T14:07:18.767Z",
+        "currency": "EUR"
+      }
+    ]
+}

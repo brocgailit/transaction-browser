@@ -2,7 +2,7 @@ import express, { Express, Request, Response, ErrorRequestHandler } from 'expres
 import dotenv from 'dotenv';
 import cors from 'cors';
 
-import { router } from './routes/api';
+import { router as categories } from './routes/categories';
 
 dotenv.config();
 
@@ -16,6 +16,6 @@ app.get('/', (req: Request, res: Response) => {
   });
 });
 
-app.use('/api', router)
+app.use('/categories', categories)
 
 export { app }
