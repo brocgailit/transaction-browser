@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 
 import { router as categories } from './routes/categories';
+import { router as accounts } from './routes/accounts';
 
 dotenv.config();
 
@@ -17,5 +18,6 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.use('/categories', categories)
+app.use('/accounts', accounts)
 
 export { app }
