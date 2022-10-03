@@ -1,7 +1,7 @@
 import { test, expect, assert } from "vitest";
 import request from "supertest";
 import { app } from '../../app';
-import { accounts } from '../../data/test_data.json';
+import { accounts, transactions } from '../../data/test_data.json';
 
 function isValidAccount(account) {
     return Object.entries(accounts[0])
@@ -51,4 +51,20 @@ test("Get account by id", async () => {
         .get(`/accounts/INVALID_ACCOUNT_ID`)
         .expect("Content-Type", /json/)
         .expect(404);
+})
+
+test("Get account transactions", async () => {
+
+    const [account] = accounts;
+    const accountTransactions = transactions.filter(transaction => transaction.accountId === account.id);
+
+    // endopint return successful json response
+    const { body } = await request(app)
+        .get(`/accounts/${account.id}/transactions`)
+        .expect("Content-Type", /json/)
+        .expect(200);
+    
+    // response contains array of transactions
+    assert.deepEqual(body, accountTransactions, 'Body did not return expected transactions')
+
 })
