@@ -53,10 +53,34 @@ test("Get account by id", async () => {
         .expect(404);
 })
 
+test("Get account total by id", async () => {
+
+    const [account] = accounts;
+
+    const accountTotal = transactions
+        .filter(({accountId}) => accountId === account.id)
+        .reduce((total, {amount}) => total + Number(amount), 0);
+
+    // endpoint returns successful json response
+    const { body } = await request(app)
+        .get(`/accounts/${account.id}/total`)
+        .expect("Content-Type", /json/)
+        .expect(200);
+
+    // response provides total in account
+    assert.equal(body.total, accountTotal, 'Body does not contain proper count')
+})
+
 test("Get account transactions", async () => {
 
     const [account] = accounts;
-    const accountTransactions = transactions.filter(transaction => transaction.accountId === account.id);
+    
+    const accountTransactions = transactions
+        .filter(transaction => transaction.accountId === account.id)
+        .map(transaction => ({
+            ...transaction,
+            amount: Number(transaction.amount)
+        }));;
 
     // endpoint returns successful json response
     const { body } = await request(app)
@@ -75,9 +99,13 @@ test("Get account transactions by category", async () => {
     const [{id}] = accounts;
     const [category] = categories;
 
-    const accountTransactionsByCategory = transactions.filter(({accountId, category : transactionCategory}) => {
-        return accountId === id && transactionCategory === category
-    });
+    const accountTransactionsByCategory = transactions
+        .filter(({accountId, category : transactionCategory}) => {
+            return accountId === id && transactionCategory === category
+        }).map(transaction => ({
+            ...transaction,
+            amount: Number(transaction.amount)
+        }));
 
     // endpoint returns successful json response
     const { body } = await request(app)
