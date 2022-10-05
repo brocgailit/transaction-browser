@@ -28,6 +28,23 @@ export const getAccountById: RequestHandler = (req, res, next) => {
     }
 };
 
+export const getAccountTotalById: RequestHandler = (req, res, next) => {
+
+    try {
+        const { id } = req.params;
+
+        const total = transactions
+            .filter(({accountId}) => accountId === id)
+            .reduce((total, {amount}) => total + Number(amount), 0);
+
+        res.json({total});
+
+    } catch(err) {
+        console.error(`Error getting`, (err as Error).message);
+        next(err);
+    }
+};
+
 export const getAccountTransactions: RequestHandler = (req, res, next) => {
 
     try {
