@@ -42,6 +42,6 @@ export class APIClient {
     }
 
     getAccountTotal(id: string) {
-        return this.get<Transaction[]>(`accounts/${id}/total`);
+        return this.get<{total: number}>(`accounts/${id}/total`).then(res => res.total);
     }
 }
