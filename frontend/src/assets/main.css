@@ -1,1 +1,53 @@
 @import "./base.css";
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+h1 {
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-weight: var(--font-weight-bold);
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+[role="button"], .button {
+    display: block;
+    cursor: pointer;
+    padding: 2em;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-deep);
+    text-decoration: none;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    text-align: center;
+    outline: 2px solid transparent;
+}
+
+[role="button"]:hover, .button:hover {
+    box-shadow: var(--shadow);              
+}
+
+[role="button"]:focus,
+input[type="checkbox"]:focus + .button {
+    outline-color: var(--color-primary);
+}
+
+[role="button"]:active,
+input[type="checkbox"]:active + .button {
+    box-shadow: var(--shadow-shallow);
+}
