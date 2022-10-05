@@ -12,6 +12,9 @@ const id = route.params.id as string;
 const client = new APIClient();
 
 const account = await client.getAccount(id);
+
+const accountTotal = await client.getAccountTotal(id);
+
 const categories = await client.getCategories();
 
 const transactions = ref<Transaction[]>([]);
@@ -19,10 +22,6 @@ const transactions = ref<Transaction[]>([]);
 const sortDirection = ref<number>(-1);
 
 const selectedCategories = ref<string[]>([]);
-
-const totalAmount = computed(() => {
-  return transactions.value.reduce((total, { amount }) => total + amount, 0);
-})
 
 const sortedAndGroupedTransactions = computed(() => {
   const sorted = [...transactions.value].sort(({date : a},{date: b}) => new Date(a).getTime() - new Date(b).getTime());
@@ -56,8 +55,8 @@ watchEffect(async () => {
 
     <header>
       <h1>{{ account.owner }}</h1>
-      <h2 :class="{negative: Math.sign(totalAmount) < 0}">
-        {{formatCurrency(totalAmount)}}
+      <h2 :class="{negative: Math.sign(accountTotal) < 0}">
+        {{formatCurrency(accountTotal)}}
       </h2>
     </header>
 
