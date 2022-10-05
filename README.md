@@ -28,6 +28,7 @@ Node.js with npm version > v7. This project uses npm workspaces
 ## Instructions for Demo
 1. From project root directory, run `npm install` to install all workspace dependencies.
 2. Run `npm run dev` to start backend and frontend workspaces in *Development* mode
+3. Open in your browser! URL is provided in terminal output, however should point to [http://localhost:5173](http://localhost:5173)
 
 ## Additional features
 ### Unit tests
@@ -38,4 +39,3 @@ Node.js with npm version > v7. This project uses npm workspaces
 
 ### Building
 - From project root directory, run `npm run build`
-
