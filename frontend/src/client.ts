@@ -40,4 +40,8 @@ export class APIClient {
         categories.forEach(category => params.append('category', category));
         return this.get<Transaction[]>(`accounts/${id}/transactions`, params);
     }
+
+    getAccountTotal(id: string) {
+        return this.get<Transaction[]>(`accounts/${id}/total`);
+    }
 }
