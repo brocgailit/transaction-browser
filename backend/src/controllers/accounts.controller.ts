@@ -43,7 +43,10 @@ export const getAccountTransactions: RequestHandler = (req, res, next) => {
                     accountId === id,
                     category ? (category as string | string[]).includes(transactionCategory) : true
                 ].every(Boolean);
-            });
+            }).map(transaction => ({
+                ...transaction,
+                amount: Number(transaction.amount)
+            }));
 
             res.json(accountTransactions || []);
         } else {
